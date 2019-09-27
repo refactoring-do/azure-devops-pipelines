@@ -14,12 +14,14 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
+- script: ls
+  displayName: 'ls'
 
 - script: |
     npm install
   displayName: 'npm install'
 
-- script: npm test
+- script: ls
   displayName: 'npm test'
   workingDirectory: './tests/*.test.js'
 
