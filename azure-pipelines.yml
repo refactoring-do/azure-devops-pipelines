@@ -14,17 +14,11 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
-- script: |
-    ls
-    pwd
-    echo '$(System.DefaultWorkingDirectory)'
-  displayName: 'ls'
 
 - script: |
     npm install
   displayName: 'npm install'
 
-- script: ls
+- script: npm test
   displayName: 'npm test'
-  workingDirectory: '../tests/products.test.js'
 
