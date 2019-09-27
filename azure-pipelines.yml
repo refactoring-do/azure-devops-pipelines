@@ -25,6 +25,6 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
+    testResultsFiles: '**/TEST-RESULTS.xml'
     failTaskOnFailedTests: true
     testRunTitle: 'publishin test result'
