@@ -21,5 +21,4 @@ steps:
 
 - script: npm test
   displayName: 'npm test'
-  workingDirectory: '/tests/*.test.js'
 
