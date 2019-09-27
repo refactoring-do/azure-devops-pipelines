@@ -322,7 +322,6 @@ h1::before {
 
 .product__link:link,
 .product__link:visited {
-  display: block;
   background-color: #79e17b;
   color: white;
   font-size: 1.6rem;
