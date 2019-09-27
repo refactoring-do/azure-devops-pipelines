@@ -31,7 +31,7 @@ steps:
 
 - task: SonarQubePrepare@4
   inputs:
-    SonarQube: 'SonarQube'
+    SonarQube: 'SonarQ'
     scannerMode: 'CLI'
     configMode: 'manual'
     cliProjectKey: 'SuperMarket'
