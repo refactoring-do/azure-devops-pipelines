@@ -48,7 +48,7 @@ steps:
   continueOnError: false
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: 'super-market/'
+    rootFolderOrFile: '$(Build.SourcesDirectory)'
     includeRootFolder: true
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/nodeApp.zip'
