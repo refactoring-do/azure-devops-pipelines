@@ -18,9 +18,27 @@ steps:
 - script: |
     npm install
   displayName: 'npm install'
-
+    
 - script: npm test
   displayName: 'npm test'
+
+- task: SonarQubePrepare@4
+  inputs:
+    SonarQube: 'SonarQube'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: 'SuperMarket'
+    cliProjectName: 'SuperMarket'
+    cliSources: '.'
+- task: SonarQubeAnalyze@4
+  displayName: 'SonarQube Analyze'
+  continueOnError: false
+
+- task: SonarQubePublish@4
+  displayName: 'SonarQube Publish'
+  inputs:
+    pollingTimeoutSec: '300'
+  continueOnError: false
 
 - task: PublishTestResults@2
   inputs:
