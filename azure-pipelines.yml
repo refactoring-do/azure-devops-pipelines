@@ -23,5 +23,5 @@ steps:
 
 - script: ls
   displayName: 'npm test'
-  workingDirectory: '../../tests/products.test.jss'
+  workingDirectory: '../../tests/products.test.js'
 
