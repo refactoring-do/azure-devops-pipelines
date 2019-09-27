@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test":"jest  --verbose ./tests"
+    "test": "jest --verbose ./tests"
   },
   "author": "Marluan Espiritusanto",
   "license": "ISC",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.1.0",
+    "jest-junit": "^8.0.0",
     "nodemon": "^1.19.2"
   }
 }
