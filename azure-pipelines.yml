@@ -19,12 +19,12 @@ steps:
     npm install
   displayName: 'npm install'
 
-- script: npm test
+- script: jest --ci --reporters=default --reporters=jest-junit
   displayName: 'npm test'
 
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-RESULTS.xml'
+    testResultsFiles: '**/junit.xml'
     failTaskOnFailedTests: true
     testRunTitle: 'publishin test result'
