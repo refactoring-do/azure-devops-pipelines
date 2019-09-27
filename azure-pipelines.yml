@@ -14,7 +14,9 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
-- script: ls
+- script: |
+    ls
+    echo '$(System.DefaultWorkingDirectory)'
   displayName: 'ls'
 
 - script: |
