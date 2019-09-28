@@ -26,7 +26,7 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/junit.xml'
-    failTaskOnFailedTests: true
+    failTaskOnFailedTests: false
     testRunTitle: 'publishin test result'
 
 - task: SonarQubePrepare@4
