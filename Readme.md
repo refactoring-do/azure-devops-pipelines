@@ -1,4 +1,5 @@
 # SHOP
+- [Link to site](https://supermarket-refactoring.azurewebsites.net/)
 
 - Integration: [![Build Status](https://dev.azure.com/alexismateo-org/super-market/_apis/build/status/super-market?branchName=master)](https://dev.azure.com/alexismateo-org/super-market/_build/latest?definitionId=4&branchName=master)
 
