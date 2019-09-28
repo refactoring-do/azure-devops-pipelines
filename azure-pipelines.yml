@@ -38,6 +38,7 @@ steps:
     cliProjectKey: 'SuperMarket'
     cliProjectName: 'SuperMarket'
     cliSources: '.'
+  continueOnError: false
 - task: SonarQubeAnalyze@4
   displayName: 'SonarQube Analyze'
   continueOnError: false
