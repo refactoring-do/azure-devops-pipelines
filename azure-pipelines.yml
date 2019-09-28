@@ -21,12 +21,13 @@ steps:
     
 - script: npm test
   displayName: 'npm test'
+  continueOnError: true
 
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/junit.xml'
-    failTaskOnFailedTests: false
+    failTaskOnFailedTests: true
     testRunTitle: 'publishin test result'
 
 - task: SonarQubePrepare@4
