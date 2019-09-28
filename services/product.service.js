@@ -21,7 +21,7 @@ class ProductService {
     product.id = lastProduct.id + 1;
     products.push(product);
     fs.writeFileSync(FILE, JSON.stringify(products));
-    return false;
+    return true;
   }
 }
 
