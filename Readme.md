@@ -6,7 +6,11 @@
 <br/>
 
 ## Quality Gates
-- 
+- [![Bugs](http://sonarqubecaribe.eastus2.cloudapp.azure.com/api/project_badges/measure?project=SuperMarket&metric=bugs)](http://sonarqubecaribe.eastus2.cloudapp.azure.com/dashboard?id=SuperMarket)
+- [![Quality Gate Status](http://sonarqubecaribe.eastus2.cloudapp.azure.com/api/project_badges/measure?project=SuperMarket&metric=alert_status)](http://sonarqubecaribe.eastus2.cloudapp.azure.com/dashboard?id=SuperMarket)
+- [![Security Rating](http://sonarqubecaribe.eastus2.cloudapp.azure.com/api/project_badges/measure?project=SuperMarket&metric=security_rating)](http://sonarqubecaribe.eastus2.cloudapp.azure.com/dashboard?id=SuperMarket)
+- [![Coverage](http://sonarqubecaribe.eastus2.cloudapp.azure.com/api/project_badges/measure?project=SuperMarket&metric=coverage)](http://sonarqubecaribe.eastus2.cloudapp.azure.com/dashboard?id=SuperMarket)
+- [![Maintainability Rating](http://sonarqubecaribe.eastus2.cloudapp.azure.com/api/project_badges/measure?project=SuperMarket&metric=sqale_rating)](http://sonarqubecaribe.eastus2.cloudapp.azure.com/dashboard?id=SuperMarket)
 
 ![shop screenshot](screenshot-supermarket-refactoring.png)
 
