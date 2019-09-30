@@ -24,19 +24,18 @@
 ## Setup
 ```bash
 $ git clone https://github.com/Refactoring-do/azure-devops-pipelines.git
-$ cd shop
+$ cd azure-devops-pipelines/
 $ npm i
 $ npm start
 ```
 
-## Build
-```bash
-$ npm run build
-```
-
-## Test the build
+## run in dev mode
 To test:
 ```bash
 $ npm run dev
 ```
-
+## run the tests
+To test:
+```bash
+$ npm run test
+```
