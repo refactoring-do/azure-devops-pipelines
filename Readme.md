@@ -29,7 +29,7 @@
 
 - a sample e-commerce shopping site using azure devops pipelines
 
-## Setup
+## Local setup
 ```bash
 $ git clone https://github.com/Refactoring-do/azure-devops-pipelines.git
 $ cd azure-devops-pipelines/
