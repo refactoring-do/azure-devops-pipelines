@@ -17,9 +17,7 @@
 
 ## Features/highlights
 
-- a sample e-commerce shopping site
-- pattern for a real-life shopping cart and store checkout flow
-- pattern for using custom announcers for accessibility
+- a sample e-commerce shopping site using azure devops pipelines
 
 ## Setup
 ```bash
