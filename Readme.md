@@ -23,7 +23,7 @@
 
 ## Setup
 ```bash
-$ git clone https://github.com/Polymer/shop.git
+$ git clone https://github.com/Refactoring-do/azure-devops-pipelines.git
 $ cd shop
 $ npm i
 $ npm start
